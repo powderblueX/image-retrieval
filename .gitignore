@@ -1,0 +1,29 @@
+# Virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# Large local datasets and generated feature indexes
+server/database/dataset/
+server/data/
+server/saved_features_recom.txt
+server/neighbor_list_recom.pickle
+
+# Downloaded model artifacts
+server/imagenet/*.pb
+server/imagenet/*.tgz
+server/imagenet/*.zip
+
+# Runtime uploads and generated results
+server/uploads/
+server/static/result/
+
+# Local archives and operating-system files
+server.zip
+.DS_Store
+Thumbs.db
+
